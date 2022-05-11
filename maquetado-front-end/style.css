@@ -1,0 +1,178 @@
+/*Miguel Frugoni Portfolio*/
+
+/*Cuerpo*/
+body {
+	position: relative;
+	background-color: #14154F;
+    font-family: "Verdana", Geneva, Arial, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	line-height: 1.7em;
+	color: white;
+	margin: 0px 0px 70px 0px;
+
+}
+
+/*Encabezado*/
+header {
+	position: fixed;
+	top: 59px;
+	width: 100%;
+	background-color: #14154F;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.19);
+	margin: 0px;
+	/*padding: 10px 30px;*/
+}
+
+/*Logo Argentina Programa*/
+header img#aplogo {
+	position: fixed;
+	left: 20px;
+	top: 70px;
+}
+
+/*Foto de perfil*/
+section img {
+	margin: 178px 70px 20px 70px;
+	border-radius: 0.7em;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+/*Haches*/
+h1 {
+	font-size: 2.3em;
+	font-weight: bold;
+	border-bottom: solid;
+	border-color: #A5A6F6;
+	border-width: 3px;
+	padding-bottom: 15px;
+	text-align: left;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 50px;
+	margin-right: 70px;
+	margin-left: 70px;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3 {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+div.contacto#top {
+	margin-left: 90%;
+	margin-right: 0%;
+	padding: 20px 0px 20px 0px;
+}
+
+div.contacto#top i {
+	padding-right: 10%;
+	font-size: 1.7em;
+}
+
+/*Titulo de cada section*/
+.titulo {
+	width: 220px;
+	border-color: #A5A6F6;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 1em;
+	background-color: #20215E;
+	padding: 10px;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+/*Descripcion de cada section*/
+section.descripcion {
+	border-color: #343573;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 1.7em;
+	background-color: #343573;
+	padding: 135px 35px;
+	margin-top: 100px;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+
+ul.descripcion {
+	margin-top:10px;
+}
+
+/*Lista de iconos contacto*/
+.contacto li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 3%;
+	font-size: 1.5em;
+}
+
+/*Estilos de links*/
+section a:link {
+	color: white;
+	font-style: italic;
+	font-size: 110%;
+	text-decoration: none;
+}
+section a:visited {
+	color: #999;
+	font-size: 110%;
+}
+section a:hover {
+	color: #007e7e;
+	text-decoration: underline;
+}
+section a:focus {
+	color: green;
+}
+section a:active {
+	color: #222;
+}
+
+/*Estilos de links ("sobre" de enviar mail)*/
+.contacto a:link {
+	color: white;
+}
+.contacto a:visited {
+	color: #999;
+}
+.contacto a:hover {
+	color: #007e7e;
+}
+.contacto a:focus{
+	color:#999 ;
+}
+.contacto a:active {
+	color: #222;
+}
+
+/*Pie de pagina*/
+footer {
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  font-size: 90%;
+}
+
+/* Reglas para ancho de viewport menor a 575px*/
+@media only screen and (max-width: 575px){
+	section img { margin-top: 360px; }
+	header { top: 275px; }
+	body {margin: 0px;}
+	section.descripcion {margin-right: 0px; margin-left: 0px;}
+	header img#aplogo { top: 286px; }
+	div.contacto#top { margin-left: 80%; }
+	div.contacto#top i { padding-right: 5%; font-size: 1.5em; }
+}
