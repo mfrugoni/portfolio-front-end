@@ -1,3 +1,12 @@
+# Portfolio de Miguel Frugoni
+
+Proyecto realizado en Angular. Trabajo final de Argentina Programa.
+
+Basado en la maqueta previamente realizada en HTML 5, CSS 3, Bootstrap 5.
+Maqueta disponible en: https://github.com/mfrugoni/portfolio-mmfrugoni
+
+
+
 # MmfAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
